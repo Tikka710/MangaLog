@@ -7,6 +7,14 @@ export const TopPage: React.FC = () => {
       <section className="flex flex-col justify-center items-center">
         <p className="text-2xl">日々読んだ漫画を記録しています</p>
       </section>
+      <article>
+        <Link href="/">
+          <img />
+        </Link>
+        <Link href="/">
+          <a></a>
+        </Link>
+      </article>
     </div>
   )
 }
